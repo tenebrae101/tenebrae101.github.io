@@ -40,25 +40,22 @@
 
         <!-- Aaron Irizarry -->
 
-        <section class="speaker" id="aaron-irizarry">
+        <section class="person" id="me">
 
           <div class="col-2-3">
 
-            <h2>Ville Hietala</h2>
-            <h5>East Asia expert</h5>
+            <h1>{{ page.title }}</h1>
+            <p class="meta">{{ page.date | date_to_string }}</p>
 
-            <p>doesn&#8217;t</p>
+            <div class="post">
+              {{ content }}
+            </div>
 
-            <p>More</p>
-
-            <h5>Hobbies</h5>
-
-            <p>speedrun</p>
 
           </div><!--
 
           --><aside class="col-1-3">
-            <div class="speaker-info">
+            <div class="person-info">
 
               <img src="assets/images/me.jpg" alt="Ville Hietala">
 
