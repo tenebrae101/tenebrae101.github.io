@@ -300,10 +300,8 @@ p a {
 .primary-footer a {
   color: #fff;
 }
-.primary-footer .links {
-  float: left;
-  font-weight: 400;
-}
+
+
 
 
 /*
@@ -325,7 +323,23 @@ p a {
 }
 
 
+/*
+  ========================================
+  Links
+  ========================================
+*/
 
+.links {
+  text-align: right;
+}
+.links li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.links li:last-child {
+  margin-right: 0;
+}
 
 /*
   ========================================
