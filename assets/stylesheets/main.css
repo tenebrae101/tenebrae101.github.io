@@ -301,6 +301,11 @@ p a {
   color: #fff;
 }
 
+.primary-footer .links {
+  float: left;
+  font-weight: 400;
+}
+
 /*
   ========================================
   Navigation
@@ -318,6 +323,7 @@ p a {
 .nav li:last-child {
   margin-right: 0;
 }
+
 .links {
   text-align: right;
 }
