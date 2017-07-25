@@ -297,6 +297,9 @@ p a {
   float: left;
   font-weight: 400;
 }
+.primary-footer a {
+  color: #fff;
+}
 
 /*
   ========================================
