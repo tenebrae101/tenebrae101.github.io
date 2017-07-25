@@ -318,6 +318,36 @@ p a {
 .nav li:last-child {
   margin-right: 0;
 }
+.links {
+  text-align: right;
+}
+.links li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.links li:last-child {
+  margin-right: 0;
+}
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+.links {
+  text-align: left;
+}
+.links li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.links li:last-child {
+  margin-right: 0;
+}
 
 /*
   ========================================
@@ -325,19 +355,6 @@ p a {
   ========================================
 */
 
-.hero {
-  color: #fff;
-  line-height: 44px;
-  padding: 22px 80px 66px 80px;
-  text-align: center;
-}
-.hero h2 {
-  font-size: 36px;
-}
-.hero p {
-  font-size: 24px;
-  font-weight: 100;
-}
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
