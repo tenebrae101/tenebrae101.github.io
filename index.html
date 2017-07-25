@@ -1,16 +1,105 @@
----
-layout: default
-title: Tenebrae's GitHub Blog
----
+<!DOCTYPE html>
+<html lang="en">
 
-	<h1>{{ page.title }}</h1>
-	<div class="walloftext">
-	<p>Some code snippets or charts I find worth mentioning.</a></p>
-	</div>
+  <head>
+    <meta charset="utf-8">
+    <title>Tenebrae Art</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+  </head>
 
-	<ul class="posts">
+  <body>
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+    <!-- Header -->
+
+    <header class="primary-header container group">
+
+      <h1 class="logo">
+        <a href="index.html">tenebrae art</a>
+      </h1>
+
+      <h3 class="tagline">Language enthusiast</h3>
+
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="music.html">Music</a></li><!--
+          --><li><a href="blog.html">Blog</a></li><!--
+          --><li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- Hero -->
+<!---
+    <section class="hero container">
+
+      <h2>Dedicated to the Craft of Building Websites</h2>
+
+      <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
+
+      <a class="btn btn-alt" href="register.html">Register Now</a>
+
+    </section>
+-->
+    <!-- Teasers -->
+
+    <section class="row">
+      <div class="grid">
+
+        <!-- About -->
+
+        <section class="teaser col-1-3">
+          <h5>About</h5>
+          <a href="about.html">
+            <img src="assets/images/home/tails.jpg" alt="Tails doll">
+            <h3>About me</h3>
+          </a>
+          <p>This blog was created to showcase my creations, were it essays, code, translations or music.</p>
+        </section><!--
+
+        Music
+
+        --><section class="teaser col-1-3">
+          <h5>Music</h5>
+          <a href="music.html">
+            <img src="assets/images/home/sonicgen.jpg" alt="Video game art">
+            <h3>Originals and arrangements</h3>
+          </a>
+          <p>Here are some of my original tracks and video game arrangements.</p>
+        </section><!--
+
+        Blog
+
+        --><section class="teaser col-1-3">
+          <h5>Blog</h5>
+          <a href="blog.html">
+            <img src="assets/images/home/cat.jpg" alt="Cat on a piano">
+            <h3>Thoughts</h3>
+          </a>
+          <p>Blog posts regarding programming, linguistics and everything between.</p>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="primary-footer container group">
+
+      <small>&copy; Ville Hietala</small>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="music.html">Music</a></li><!--
+          --><li><a href="blog.html">Blog</a></li><!--
+          --><li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+
+  </body>
+</html>
