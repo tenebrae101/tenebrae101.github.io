@@ -321,23 +321,6 @@ p a {
 }
 
 
-/*
-  ========================================
-  Links
-  ========================================
-*/
-
-.links {
-  float: left;
-  font-weight: 400;
-  text-align: right;
-}
-.links li {
-  {
-  display: inline;
-  list-style-type: none;
-  padding-right: 20px;
-  }
 
 
 /*
