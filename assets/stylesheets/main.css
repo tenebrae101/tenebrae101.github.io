@@ -361,3 +361,18 @@ p a {
   margin: -66px 0 22px 0;
   vertical-align: top;
 }
+
+/*
+  ========================================
+  Youtube embedded videos
+  ========================================
+*/
+
+.embed-youtube {
+  text-align: center;
+  display: block;
+}
+
+.youtube-player {
+  border: 0;
+}
