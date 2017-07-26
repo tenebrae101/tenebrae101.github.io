@@ -55,7 +55,7 @@ table {
 
 body {
   background: #212121;
-  color: #888;
+  color: ##a0a0a0;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* "Raleway", sans-serif */
 }
@@ -179,6 +179,17 @@ strong {
 cite,
 em {
   font-style: italic;
+}
+
+blockquote {
+  border-left: 5px solid rgba(255,255,255,.5);
+  color: #648880;
+  font-style: italic;
+  padding: 0 1.5em;
+}
+
+.technologies {
+  list-style: circle;
 }
 
 /*
@@ -326,6 +337,10 @@ p a {
   color: #ccc;
 }
 
+.links li:first-child {
+  margin-left: 10px;
+}
+
 
 /*
   ========================================
@@ -376,13 +391,6 @@ p a {
   margin: 10px;
   text-align: left;
   display: block;
-}
-
-blockquote {
-  border-left: 5px solid rgba(255,255,255,.5);
-  color: #648880;
-  font-style: italic;
-  padding: 0 1.5em;
 }
 
 .youtube-player {
