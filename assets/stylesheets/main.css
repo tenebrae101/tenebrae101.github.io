@@ -308,11 +308,9 @@ p a {
   ========================================
 */
 
-.links,
 .nav {
   text-align: right;
 }
-.links li,
 .nav li {
   display: inline-block;
   margin: 0 10px;
@@ -322,6 +320,9 @@ p a {
   margin-right: 0;
 }
 
+.links li {
+  float: left;
+}
 
 
 /*
