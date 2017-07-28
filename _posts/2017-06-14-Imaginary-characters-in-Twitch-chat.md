@@ -7,4 +7,4 @@ date: 2017-06-14
 
 <p>Make sure you enlarge the picture! Sonic is the clear winner :(</p>
 
-<img alt="Sonic and Disney characters in Tenebrae's chat" src="http://i.imgur.com/dL0QiFW.png" />
+<img class="blog-pic" alt="Sonic and Disney characters in Tenebrae's Twitch chat" src="http://i.imgur.com/dL0QiFW.png" />
