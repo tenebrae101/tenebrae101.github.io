@@ -410,9 +410,10 @@ p a {
 */
 
 .blog-pic {
-  max-width: 800px;
+  max-width: 840px;
 }
 
-.posts li {
+.posts li a,
+.posts li span {
   font-size: 16px;
 }
